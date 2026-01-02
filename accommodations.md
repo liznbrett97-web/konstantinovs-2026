@@ -16,24 +16,24 @@ A small hotel just steps outside the pedestrian zone on a quiet street in a char
 **Veliki Hotel** (14 rooms)
 Well-located across from the Fontana and attached to a popular restaurant with the same name. Note that some rooms are updated while others are not.
 
-## Rooms Above Restaurants & Cafes
+## Traditional Serbian Hotels in the Heart of Downtown
 
-*These are rooms above restaurants or cafes with reception areas that might have limited hours.*
+*These are rooms in the pedestrian with reception areas that might have limited hours.*
 
 **Lanterna Rooms** (8 rooms)
 Lovely, clean and bright rooms above a popular pizza restaurant at the edge of the pedestrian zone (about 4 blocks from the church) and near the entrance to the must-see Dunavski Park. The staff is warm and accommodating. Note: one room has no windows, so be sure to confirm your room type when booking.
 
 **Corso Rooms** (8 rooms)
-Rooms above a popular cafe in the heart of the pedestrian zone. Recently refurbished with comfortable beds and nice showers. A personal favorite from our scouting trip! Important note: only 4 rooms have exterior windows—the others have windows opening onto the interior stairwell. Be sure to request an exterior-facing room when booking.
+Rooms above a popular cafe in the heart of the pedestrian zone. Recently refurbished with comfortable beds and nice showers. A favorite from the scouting trip! Important note: only 4 rooms have exterior windows—the others have windows opening onto the interior stairwell. Be sure to request an exterior-facing room when booking.
 
 **Kombinat Rooms** (20 rooms)
-Well located less than 2 blocks from the church with modern, contemporary feel. All rooms are recently renovated. Half the rooms face the busy main thoroughfare, while the other half have very high windows (you'll get sunlight but limited views out the window). The church steeple is visible from many windows, which adds charm. Breakfast is included at the popular cafe next door. Note: the entrance is on a less charming street that connects to the pedestrian plaza.
+Well located less than 2 blocks from the church with modern, contemporary feel. All rooms are recently renovated. Half the rooms face the main thoroughfare, while the other half have very high windows (you'll get sunlight but limited views out the window). The church steeple is visible from many windows, which adds charm. Breakfast is included at the popular cafe next door. Note: the entrance is on a less charming street that connects to the pedestrian plaza.
 
 **Arhiv**
-Contemporary, modern rooms near two bustling restaurants, just off the pedestrian plaza with plenty of outdoor seating. Note: the entrance is modest, but the rooms themselves are renovated.
+Contemporary, modern rooms near two bustling restaurants, just off the pedestrian plaza with plenty of outdoor seating. Note: the entrance is fairly unattractive, but the rooms themselves are renovated.
 
 **Queen Palace**
-Renovated rooms in a beautiful historic building immediately next door to the church and pedestrian plaza. Lovely rooms with comfortable beds and shared balconies overlooking the city rooftops. Note: the entrance is through an archway leading to a small elevator, which may feel a bit charming-but-rustic at first, but the rooms are well worth it.
+Renovated rooms in a historic but dated building immediately next door to the church and pedestrian plaza. Lovely rooms with comfortable beds and shared balconies overlooking the city rooftops. Note: the entrance is through an archway leading to a small elevator, which may feel a bit rustic at first, but the rooms are well worth it.
 
 ## Full-Service Hotels
 
