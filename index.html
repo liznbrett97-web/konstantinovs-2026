@@ -326,12 +326,48 @@
             color: #8b6f8e;
         }
 
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .gallery-item {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gallery-caption {
+            padding: 1rem 1.5rem;
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            font-size: 1rem;
+        }
+
         @media (max-width: 768px) {
             h1 { font-size: 2.5rem; }
             .date { font-size: 1.2rem; }
             section { padding: 3rem 1rem; }
             .timeline-item { flex-direction: column; }
             nav ul { flex-direction: column; gap: 1rem; }
+            .gallery { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -339,6 +375,7 @@
     <nav id="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#details">Details</a></li>
             <li><a href="#accommodations">Accommodations</a></li>
             <li><a href="#schedule">Schedule</a></li>
@@ -363,6 +400,36 @@
             </svg>
         </div>
     </header>
+
+    <section id="gallery">
+        <h2>Our Story</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="Images/IMG_4379.jpeg" alt="Hiking in Colorado">
+                <div class="gallery-caption">Hiking in Colorado</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/IMG_1720.jpeg" alt="Ski Trip to Zermatt">
+                <div class="gallery-caption">Ski Trip to Zermatt</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/IMG_0247.jpeg" alt="Engagement Shoot">
+                <div class="gallery-caption">Engagement Shoot</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/IMG_0256.jpeg" alt="The ring!">
+                <div class="gallery-caption">The ring!</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/IMG_7133.jpeg" alt="Us at our engagement party at AYC this summer">
+                <div class="gallery-caption">Us at our engagement party at AYC this summer</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Images/IMG_4631.jpeg" alt="Us in Hilton Head Island this year">
+                <div class="gallery-caption">Us in Hilton Head Island this year</div>
+            </div>
+        </div>
+    </section>
 
     <section id="details">
         <h2>Wedding Details</h2>
@@ -469,51 +536,18 @@
     <section id="rsvp">
         <h2>RSVP</h2>
         <p style="text-align: center; margin-bottom: 2rem; color: #666;">Please respond by May 1, 2026</p>
-        
-        <form id="rsvpForm" name="rsvp" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success.html">
-            <input type="hidden" name="form-name" value="rsvp">
-            
-            <!-- Hidden honeypot field for spam protection -->
-            <p style="display: none;">
-                <label>Don't fill this out if you're human: <input name="bot-field"></label>
-            </p>
-            
-            <div class="form-group">
-                <label for="name">Full Name(s) *</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="email">Email Address *</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="attending">Will you be attending? *</label>
-                <select id="attending" name="attending" required>
-                    <option value="">Please select</option>
-                    <option value="yes">Joyfully accepts</option>
-                    <option value="no">Regretfully declines</option>
-                </select>
-            </div>
-            
-            <div class="form-group">
-                <label for="guests">Number of Guests</label>
-                <input type="number" id="guests" name="guests" min="1" max="5" value="1">
-            </div>
-            
-            <div class="form-group">
-                <label for="dietary">Dietary Restrictions</label>
-                <textarea id="dietary" name="dietary" placeholder="Please let us know of any dietary restrictions or allergies"></textarea>
-            </div>
-            
-            <div class="form-group">
-                <label for="message">Message to the Couple</label>
-                <textarea id="message" name="message" placeholder="Share your well wishes or any questions you may have"></textarea>
-            </div>
-            
-            <button type="submit">Submit RSVP</button>
-        </form>
+
+        <div style="display: flex; justify-content: center;">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeD8LC1ya3sspo3g2tNyLAB2C4Y_wTDjeaE3tA3DWmAuB7kCg/viewform?embedded=true"
+                    width="640"
+                    height="800"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+                    style="border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); max-width: 100%;">
+                Loading…
+            </iframe>
+        </div>
     </section>
 
     <section id="registry">
@@ -560,13 +594,6 @@
                     });
                 }
             });
-        });
-
-        // Form submission handling (Netlify handles the actual submission)
-        // This just provides user feedback
-        document.getElementById('rsvpForm').addEventListener('submit', function(e) {
-            // Let Netlify handle the form submission naturally
-            // The form will redirect to a success page or show Netlify's default message
         });
 
         // Load and render accommodations markdown
