@@ -8,7 +8,7 @@ We recommend staying in Novi Sad's beautiful city center, which features a large
 
 ## Boutique Hotels in the Heart of Downtown
 
-*Traditional Serbian accomidations in the lovely pedestrianized plaza near the church*
+*Traditional Serbian accomodations in the lovely pedestrianized plaza near the church*
 
 **Fontana Hotel** (19 rooms)
 A small hotel just steps outside the pedestrian zone on a quiet street in a charming historic building with a restaurant and outdoor terrace. Some rooms have balconies. Simple, clean rooms.
