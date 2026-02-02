@@ -6,9 +6,9 @@ Hotels in Serbia can be a bit different from what you might expect in the U.S. F
 
 We recommend staying in Novi Sad's beautiful city center, which features a large pedestrian area with cafes, small shops, and the church where our ceremony will be held. This area is also walkable to our welcome dinner on Thursday evening. We've chosen small boutique hotels and rooms that capture the history and spirit of the area—while they're not fancy, we've visited each one and can vouch for their charm.
 
-## Boutique Hotels
+## Boutique Hotels in the Heart of Downtown
 
-*These hotels have full-time reception areas, restaurants, and bars.*
+*Traditional Serbian accomidations in the lovely pedestrianized plaza near the church*
 
 **Fontana Hotel** (19 rooms)
 A small hotel just steps outside the pedestrian zone on a quiet street in a charming historic building with a restaurant and outdoor terrace. Some rooms have balconies. Simple, clean rooms.
@@ -18,10 +18,6 @@ Well-located across from the Fontana and attached to a popular restaurant with t
 
 **Kombinat Rooms** (20 rooms)
 Well located at the edge of the pedestrian zone less than 2 blocks from the church with modern, contemporary feel. All rooms are recently renovated. Half the rooms face the main thoroughfare, while the other half have very high windows (you'll get sunlight but limited views out the window). The church steeple is visible from many windows, which adds charm. Breakfast is included at the popular cafe next door. Note: the entrance is on a less charming street that connects to the pedestrian plaza.
-
-## Traditional Serbian Accommodations in the Heart of Downtown
-
-*These are rooms in the pedestrian with reception areas that might have limited hours.*
 
 **Lanterna Rooms** (8 rooms)
 Lovely, clean and bright rooms above a popular pizza restaurant at the edge of the pedestrian zone (about 4 blocks from the church) and near the entrance to the must-see Dunavski Park. The staff is warm and accommodating. Note: one room has no windows, so be sure to confirm your room type when booking.
@@ -36,6 +32,8 @@ Contemporary, modern rooms near two bustling restaurants, just off the pedestria
 Renovated rooms in a historic but dated building immediately next door to the church and pedestrian plaza. Lovely rooms with comfortable beds and shared balconies overlooking the city rooftops. Note: the entrance is through an archway leading to a small elevator, which may feel a bit offputting at first, but the rooms are nice.
 
 ## Full-Service Hotels
+
+*American-style hotels, separated from the pedestrianized plaza by a busy road*
 
 **Hotel Pupin**
 Large, fully renovated rooms in a full-service hotel with two restaurants, walk-in closets, and high-end amenities. Located in an office building on the main road. To reach the pedestrian zone and church, you'll walk through an underground tunnel. Reception is accessed via elevator.
