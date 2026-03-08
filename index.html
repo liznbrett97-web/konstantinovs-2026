@@ -377,6 +377,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#gallery">Our Story</a></li>
             <li><a href="#accommodations">Accommodations</a></li>
+            <li><a href="#logistics">Logistics</a></li>
             <li><a href="#schedule">Schedule</a></li>
             <li><a href="#rsvp">RSVP</a></li>
             <li><a href="#registry">Registry</a></li>
@@ -450,6 +451,13 @@
         <h2>Accommodations</h2>
         <div class="info-card" id="accommodations-content">
             <p>Loading accommodations information...</p>
+        </div>
+    </section>
+
+    <section id="logistics">
+        <h2>Logistics</h2>
+        <div class="info-card" id="logistics-content">
+            <p>Loading logistics information...</p>
         </div>
     </section>
 
@@ -583,6 +591,17 @@
             .catch(error => {
                 console.error('Error loading accommodations:', error);
                 document.getElementById('accommodations-content').innerHTML = '<p>Unable to load accommodations information.</p>';
+            });
+
+        fetch('Logistics.md')
+            .then(response => response.text())
+            .then(markdown => {
+                const html = marked.parse(markdown);
+                document.getElementById('logistics-content').innerHTML = html;
+            })
+            .catch(error => {
+                console.error('Error loading logistics:', error);
+                document.getElementById('logistics-content').innerHTML = '<p>Unable to load logistics information.</p>';
             });
     </script>
 </body>
