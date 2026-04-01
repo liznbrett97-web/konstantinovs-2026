@@ -377,6 +377,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#gallery">Our Story</a></li>
             <li><a href="#accommodations">Accommodations</a></li>
+            <li><a href="#faq">FAQ</a></li>
             <li><a href="#schedule">Schedule</a></li>
             <li><a href="#rsvp">RSVP</a></li>
             <li><a href="#registry">Registry</a></li>
@@ -453,6 +454,13 @@
         </div>
     </section>
 
+    <section id="faq">
+        <h2>FAQ</h2>
+        <div class="info-card" id="faq-content">
+            <p>Loading FAQ information...</p>
+        </div>
+    </section>
+
     <section id="schedule">
         <h2>Schedule of Events</h2>
         
@@ -487,7 +495,7 @@
                 <div class="timeline-time">1:30 PM</div>
                 <div class="timeline-content">
                     <h3>Ceremony</h3>
-                    <p>Join us as we exchange our vows at the Church of the Holy Name of Mary.</p>
+                    <p>Join us for our wedding ceremony at the Church of the Holy Name of Mary.</p>
                 </div>
             </div>
 
@@ -503,7 +511,7 @@
                 <div class="timeline-time">4:00 PM</div>
                 <div class="timeline-content">
                     <h3>Cocktail Hour</h3>
-                    <p>Enjoy drinks and appetizers at Villa Viko while we take photos.</p>
+                    <p>Enjoy drinks and light appetizers at Villa Viko while we take photos.</p>
                 </div>
             </div>
             
@@ -511,7 +519,7 @@
                 <div class="timeline-time">6:00 PM</div>
                 <div class="timeline-content">
                     <h3>Reception</h3>
-                    <p>Dinner service begins, followed by toasts, cake cutting, and dancing into the night!</p>
+                    <p>We will move into the main event space, and the reception begins!</p>
                 </div>
             </div>
         </div>
@@ -522,15 +530,13 @@
         <p style="text-align: center; margin-bottom: 2rem; color: #666;">Please respond by May 1, 2026</p>
 
         <div style="display: flex; justify-content: center;">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeD8LC1ya3sspo3g2tNyLAB2C4Y_wTDjeaE3tA3DWmAuB7kCg/viewform?embedded=true"
-                    width="640"
-                    height="800"
-                    frameborder="0"
-                    marginheight="0"
-                    marginwidth="0"
-                    style="border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); max-width: 100%;">
-                Loading…
-            </iframe>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeD8LC1ya3sspo3g2tNyLAB2C4Y_wTDjeaE3tA3DWmAuB7kCg/viewform"
+               target="_blank"
+               style="background: linear-gradient(135deg, #8b6f8e, #d4a5bc); color: white; padding: 1rem 3rem; border-radius: 50px; font-size: 1.1rem; text-decoration: none; letter-spacing: 1px; transition: transform 0.3s, box-shadow 0.3s; display: inline-block;"
+               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 5px 15px rgba(139, 111, 142, 0.3)';"
+               onmouseout="this.style.transform=''; this.style.boxShadow='';">
+                RSVP Here
+            </a>
         </div>
     </section>
 
@@ -541,17 +547,12 @@
         </p>
         
         <div class="registry-links">
-            <a href="#" class="registry-btn" id="bloomingdales-link">Bloomingdale's Registry</a>
+            <a href="https://www.bloomingdales.com/registry/Aleksa-Konstantinov-Elizabeth-Brett/1267120" class="registry-btn" id="bloomingdales-link" target="_blank">Bloomingdale's Registry</a>
         </div>
-        
-        <p style="text-align: center; color: #888; margin-top: 2rem; font-style: italic; font-size: 0.95rem;">
-            Registry link coming soon
-        </p>
     </section>
 
     <footer>
         <p>&copy; 2026 Aleksa & Elizabeth's Wedding</p>
-        <p style="margin-top: 1rem;">Questions? Contact us at aleksaandelizabeth@wedding.com</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -590,6 +591,17 @@
             .catch(error => {
                 console.error('Error loading accommodations:', error);
                 document.getElementById('accommodations-content').innerHTML = '<p>Unable to load accommodations information.</p>';
+            });
+
+        fetch('FAQ.md')
+            .then(response => response.text())
+            .then(markdown => {
+                const html = marked.parse(markdown);
+                document.getElementById('faq-content').innerHTML = html;
+            })
+            .catch(error => {
+                console.error('Error loading FAQ:', error);
+                document.getElementById('faq-content').innerHTML = '<p>Unable to load FAQ information.</p>';
             });
     </script>
 </body>
