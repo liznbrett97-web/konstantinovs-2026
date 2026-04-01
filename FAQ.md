@@ -5,6 +5,8 @@
 [Serbia Transfer](https://serbiatransfers.com/hire-a-minibus-with-a-driver-in-serbia/)
 [Belgrade Chauffeur](https://belgradechauffeur.com/)
 
+**Do I need a car?**: No — you won't need one. Novi Sad's city center is very walkable, and the welcome dinner and ceremony are both within easy walking distance of the recommended hotels. Shuttles will be provided between Novi Sad city center and the reception venue (Villa Viko) both to and from the event, so no transportation is needed on the wedding day itself.
+
 **Hotels & Attractions in Belgrade**: There are many great hotels in Belgrade; a few we would especially recommend are:
 
 [Saint Ten Hotel](https://maps.app.goo.gl/nBdeFMiifuA5pC826)
